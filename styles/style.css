@@ -118,7 +118,7 @@ main > article img {
   margin-right: 24px;
   margin-bottom: 6px;
 }
-main > article p.drop-cap::first-letter {
+article p:first-of-type::first-letter {
   font-size: 600%;
 
 }
